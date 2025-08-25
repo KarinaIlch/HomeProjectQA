@@ -36,6 +36,14 @@ public class SidePanel extends BasePage {
         click(nestedFrames);
         return this;
     }
+
+    @FindBy(xpath = "//a[@href='/dropdown']")
+    WebElement dropdown;
+
+    public SidePanel clickOnDropDownLink() {
+        click(dropdown);
+        return this;
+    }
 }
 
 
