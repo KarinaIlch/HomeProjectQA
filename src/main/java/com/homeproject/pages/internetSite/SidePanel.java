@@ -1,6 +1,7 @@
 package com.homeproject.pages.internetSite;
 
 import com.homeproject.core.BasePage;
+import com.homeproject.pages.widgets.SliderPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,6 +44,14 @@ public class SidePanel extends BasePage {
     public SidePanel clickOnDropDownLink() {
         click(dropdown);
         return this;
+    }
+
+    @FindBy(xpath = "//a[normalize-space()='Horizontal Slider']")
+    WebElement slider;
+
+    public SliderPage clickOnSlider() {
+        click(slider);
+        return new SliderPage(driver);
     }
 }
 
