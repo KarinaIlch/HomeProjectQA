@@ -22,12 +22,21 @@ public class SidePanel extends BasePage {
     @FindBy(xpath = "//a[@href='/windows' and normalize-space()='Multiple Windows']")
     WebElement MultipleWindowButton;
 
-    public SidePanel clickOnMyltipleWindow() {
+    public SidePanel selectMyltipleWindow() {
         click(MultipleWindowButton);
-        return new SidePanel(driver);
+        return this;
 
     }
+
+    // по тексту
+    @FindBy(xpath = "//a[normalize-space()='Nested Frames']")
+    WebElement nestedFrames;
+
+    public SidePanel selectNestedFrames() {
+        click(nestedFrames);
+        return this;
     }
+}
 
 
 

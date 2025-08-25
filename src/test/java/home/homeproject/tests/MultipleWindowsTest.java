@@ -14,7 +14,7 @@ public class MultipleWindowsTest extends TestBase {
     public void precondition() {
         sidePanel = new SidePanel(driver);
         multipleWindow = new MultipleWindow(driver);
-        sidePanel.clickOnMyltipleWindow();
+        sidePanel.selectMyltipleWindow();
     }
 
     @Test
