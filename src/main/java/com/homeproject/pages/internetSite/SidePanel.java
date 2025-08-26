@@ -63,6 +63,14 @@ public class SidePanel extends BasePage {
         return this;
 
     }
+
+    @FindBy(xpath = "//a[normalize-space()='Context Menu']")
+    WebElement selectContextMenu;
+
+    public SidePanel selectContextMenu() {
+        click(selectContextMenu);
+        return this;
+    }
 }
 
 
