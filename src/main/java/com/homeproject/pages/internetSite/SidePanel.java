@@ -1,6 +1,7 @@
 package com.homeproject.pages.internetSite;
 
 import com.homeproject.core.BasePage;
+import com.homeproject.pages.alertsFrameWindows.UploadFilePage;
 import com.homeproject.pages.widgets.SliderPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -52,6 +53,15 @@ public class SidePanel extends BasePage {
     public SliderPage clickOnSlider() {
         click(slider);
         return new SliderPage(driver);
+    }
+
+    @FindBy(xpath = "//a[normalize-space()='File Upload']")
+    WebElement selectFile;
+
+    public SidePanel selectUploadFile() {
+    click(selectFile);
+        return this;
+
     }
 }
 
