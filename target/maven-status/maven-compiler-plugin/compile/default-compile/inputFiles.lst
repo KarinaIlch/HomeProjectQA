@@ -1,0 +1,12 @@
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/core/ApplicationManager.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/core/BasePage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/alertsFrameWindows/AlertsPage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/alertsFrameWindows/ContextMenuPage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/alertsFrameWindows/DropDownPage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/alertsFrameWindows/MultipleWindow.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/alertsFrameWindows/NestedFramePage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/alertsFrameWindows/UploadFilePage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/internetSite/SidePanel.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/pages/widgets/SliderPage.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/utils/MyListener.java
+/Users/karinailchenko/QA/HomeProjectQA/src/main/java/com/homeproject/utils/MyTestWatcher.java

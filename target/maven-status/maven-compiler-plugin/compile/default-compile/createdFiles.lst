@@ -1,0 +1,12 @@
+com/homeproject/pages/alertsFrameWindows/DropDownPage.class
+com/homeproject/core/ApplicationManager.class
+com/homeproject/utils/MyTestWatcher.class
+com/homeproject/pages/widgets/SliderPage.class
+com/homeproject/utils/MyListener.class
+com/homeproject/pages/alertsFrameWindows/ContextMenuPage.class
+com/homeproject/pages/alertsFrameWindows/NestedFramePage.class
+com/homeproject/core/BasePage.class
+com/homeproject/pages/alertsFrameWindows/MultipleWindow.class
+com/homeproject/pages/internetSite/SidePanel.class
+com/homeproject/pages/alertsFrameWindows/AlertsPage.class
+com/homeproject/pages/alertsFrameWindows/UploadFilePage.class

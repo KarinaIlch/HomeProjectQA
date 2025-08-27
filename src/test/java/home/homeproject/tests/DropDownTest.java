@@ -4,6 +4,7 @@ import com.homeproject.pages.alertsFrameWindows.DropDownPage;
 import com.homeproject.pages.internetSite.SidePanel;
 import home.homeproject.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class DropDownTest extends TestBase {
@@ -17,6 +18,7 @@ public class DropDownTest extends TestBase {
     }
 
     @Test
+    @Tag("demo")
     public void dropDownTest() {
         sidePanel.clickOnDropDownLink();
         new DropDownPage(driver).

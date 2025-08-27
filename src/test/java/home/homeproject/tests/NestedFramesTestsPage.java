@@ -4,8 +4,10 @@ import com.homeproject.pages.alertsFrameWindows.NestedFramePage;
 import com.homeproject.pages.internetSite.SidePanel;
 import home.homeproject.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Tag("demo")
 public class NestedFramesTestsPage extends TestBase {
 
     SidePanel sidePanel;
